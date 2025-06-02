@@ -33,3 +33,19 @@ This project generates a markdown portfolio from a GitHub profile — useful for
 📄 [Notebook File](./Week%201/GitHub%20Portfolio.ipynb)
 
 ---
+
+### 2. Adversarial Chat: GPT-4o vs. Ollama
+
+This project simulates an adversarial conversation between OpenAI's GPT-4o-mini and a locally running Ollama model — ideal for exploring model alignment, reasoning contrast, and response style differences.
+
+- **Input**: Custom system prompts and a seed discussion topic
+- **Process**:
+  - Alternates dialogue between GPT and Ollama in a turn-based format
+  - Formats prompts to match OpenAI’s `messages` structure and Ollama’s raw text prompt style
+  - Maintains conversation context across multiple turns
+- **Output**: Structured debate transcript printed live in the notebook
+- **Tech**: OpenAI API, Ollama 3.2
+
+📄 [Notebook File](./Week%202/Convo%20Chatbots.ipynb)
+
+---
