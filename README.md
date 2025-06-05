@@ -34,7 +34,7 @@ This project generates a markdown portfolio from a GitHub profile — useful for
 
 ---
 
-### 2. Adversarial Chat: GPT-4o vs. Ollama
+### 3. Adversarial Chat: GPT-4o vs. Ollama
 
 This project simulates an adversarial conversation between OpenAI's GPT-4o-mini and a locally running Ollama model — ideal for exploring model alignment, reasoning contrast, and response style differences.
 
@@ -49,3 +49,17 @@ This project simulates an adversarial conversation between OpenAI's GPT-4o-mini 
 📄 [Notebook File](./Week%202/Convo%20Chatbots.ipynb)
 
 ---
+
+### 4. DeutschMeister: AI German Language Coach
+
+An interactive AI-powered German language tutor built with Gradio and OpenAI’s Chat API. It helps users learn, practice, and prepare for German exams with tailored lessons, exercises, and exam simulations based on the user's level (A1–C2) and mode (Lesson, Practice, Exam Prep).
+
+- **Input**: User’s German proficiency level and selected mode; user questions or requests
+- **Process**:
+  - Uses a detailed system prompt as a professional German language educator
+  - Maintains conversational context for personalized responses
+  - Provides structured markdown output including grammar explanations, tables, quizzes, and encouragement
+- **Output**: Interactive chat responses formatted with headings, bullet points, tables, code blocks, and quizzes
+- **Tech**: OpenAI API, Gradio UI
+
+📄 [Notebook File](./Week%202/Chatbot%20using%20Gradio.ipynb)
